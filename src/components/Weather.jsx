@@ -10,7 +10,7 @@ import wind from "../assets/wind.png";
 import clear from "../assets/clear.png";
 
 const Weather = () => {
-  const apiKey = "4aa20621789ca336dbdb9ae9a3de6159";
+  const apiKey = "942498c9488f7895eb3527a021ad22ba";
   const apiUrl =
     "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
   const [search, setsearch] = useState("Mumbai");
